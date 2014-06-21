@@ -21,6 +21,7 @@
 		83EB21EE19553B7B0071D8D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83EB21D019553B7B0071D8D8 /* UIKit.framework */; };
 		83EB21F619553B7B0071D8D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83EB21F419553B7B0071D8D8 /* InfoPlist.strings */; };
 		83EB21F819553B7B0071D8D8 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EB21F719553B7B0071D8D8 /* Git_TestTests.m */; };
+		83EB220319553E3A0071D8D8 /* INFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EB220219553E3A0071D8D8 /* INFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		83EB21F319553B7B0071D8D8 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		83EB21F519553B7B0071D8D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83EB21F719553B7B0071D8D8 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		83EB220119553E3A0071D8D8 /* INFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INFTest.h; sourceTree = "<group>"; };
+		83EB220219553E3A0071D8D8 /* INFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				83EB21DE19553B7B0071D8D8 /* Main.storyboard */,
 				83EB21E119553B7B0071D8D8 /* INFViewController.h */,
 				83EB21E219553B7B0071D8D8 /* INFViewController.m */,
+				83EB220119553E3A0071D8D8 /* INFTest.h */,
+				83EB220219553E3A0071D8D8 /* INFTest.m */,
 				83EB21E419553B7B0071D8D8 /* Images.xcassets */,
 				83EB21D319553B7B0071D8D8 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83EB21DD19553B7B0071D8D8 /* INFAppDelegate.m in Sources */,
+				83EB220319553E3A0071D8D8 /* INFTest.m in Sources */,
 				83EB21D919553B7B0071D8D8 /* main.m in Sources */,
 				83EB21E319553B7B0071D8D8 /* INFViewController.m in Sources */,
 			);
